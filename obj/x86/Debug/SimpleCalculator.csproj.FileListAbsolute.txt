@@ -1,5 +1,0 @@
-/home/yrys_nm/C#/App-test/App-test/bin/Debug/App-test.exe
-/home/yrys_nm/C#/App-test/App-test/bin/Debug/App-test.pdb
-/home/yrys_nm/C#/App-test/App-test/obj/x86/Debug/SimpleCalculator.csproj.CoreCompileInputs.cache
-/home/yrys_nm/C#/App-test/App-test/obj/x86/Debug/App-test.exe
-/home/yrys_nm/C#/App-test/App-test/obj/x86/Debug/App-test.pdb
