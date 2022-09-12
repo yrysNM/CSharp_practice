@@ -5,10 +5,8 @@ namespace SimpleCalculator
 {
     class MainClass
     {
-       
 
-
-        public static void Main(string[] args)
+        public static void initialCalculate()
         {
             //initial class
             Calculator objCalculator = new Calculator(false, false);
@@ -28,7 +26,24 @@ namespace SimpleCalculator
             objCalculator.ArithmeticMethod = arithmeticMethod;
 
             objCalculator.showResult();
-         
+
+            Console.WriteLine("Do you want to continue the calculation ?(y/n) ");
+            string isNewConclucation = Convert.ToString(Console.ReadLine());
+
+            if (isNewConclucation[0] == 'y' || isNewConclucation[0] == 'Y')
+            {
+                objCalculator.newCalculation();
+            }
+            else if (isNewConclucation[0] == 'n' || isNewConclucation[0] == 'N')
+            {
+                objCalculator.Newcalculations = false;
+            }
+        }
+
+
+        public static void Main(string[] args)
+        {
+            initialCalculate();
         }
     }
 }

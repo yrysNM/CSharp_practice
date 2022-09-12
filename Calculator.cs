@@ -1,4 +1,5 @@
 ﻿using System;
+using static SimpleCalculator.MainClass;
 namespace SimpleCalculator
 {
     public class Calculator
@@ -6,6 +7,15 @@ namespace SimpleCalculator
         public bool isNewCalculations, isEnd;
         public char arithmeticMethod;
         public int firstNumber, secondNumber;
+
+        // constructor 
+        public Calculator(bool isNewCalculations, bool isEnd)
+        {
+
+            this.isNewCalculations = isNewCalculations;
+            this.isEnd = isEnd;
+        }
+
 
         //properties
         public int FirstNumber 
@@ -26,15 +36,19 @@ namespace SimpleCalculator
             set { arithmeticMethod = value; }
         }
 
-
-        // constructor 
-        public Calculator(bool isNewCalculations, bool isEnd)
+        public bool Newcalculations
         {
-            this.isNewCalculations = isNewCalculations;
-            this.isEnd = isEnd;
+            get { return isNewCalculations; }
+            set { isNewCalculations = value; }
         }
 
-           
+        public bool IsEnd
+        {
+            get { return isEnd; }
+            set { isEnd = value; }
+        }
+
+
         // verification of which method is chosen
         public void showResult()
         {
@@ -61,6 +75,10 @@ namespace SimpleCalculator
         public void printValue (int value)
         {
             Console.WriteLine($"Result: {value}");
+        }
+
+        public void newCalculation() {
+            MainClass.initialCalculate();
         }
     }
 }
