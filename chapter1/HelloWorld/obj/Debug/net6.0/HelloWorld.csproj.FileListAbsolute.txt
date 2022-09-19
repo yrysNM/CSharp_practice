@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/chapter1/HelloWorld/bin/Debug/net6.0/HelloWorld
+/home/yrys_nm/C#/book/chapter1/HelloWorld/bin/Debug/net6.0/HelloWorld.deps.json
+/home/yrys_nm/C#/book/chapter1/HelloWorld/bin/Debug/net6.0/HelloWorld.runtimeconfig.json
+/home/yrys_nm/C#/book/chapter1/HelloWorld/bin/Debug/net6.0/HelloWorld.dll
+/home/yrys_nm/C#/book/chapter1/HelloWorld/bin/Debug/net6.0/HelloWorld.pdb
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.dll
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/refint/HelloWorld.dll
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.pdb
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/HelloWorld.genruntimeconfig.cache
+/home/yrys_nm/C#/book/chapter1/HelloWorld/obj/Debug/net6.0/ref/HelloWorld.dll
