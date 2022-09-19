@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.AssemblyInfo.cs
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/chapter3/Operators /bin/Debug/net6.0/Operators
+/home/yrys_nm/C#/book/chapter3/Operators /bin/Debug/net6.0/Operators.deps.json
+/home/yrys_nm/C#/book/chapter3/Operators /bin/Debug/net6.0/Operators.runtimeconfig.json
+/home/yrys_nm/C#/book/chapter3/Operators /bin/Debug/net6.0/Operators.dll
+/home/yrys_nm/C#/book/chapter3/Operators /bin/Debug/net6.0/Operators.pdb
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.dll
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/refint/Operators.dll
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.pdb
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/Operators.genruntimeconfig.cache
+/home/yrys_nm/C#/book/chapter3/Operators /obj/Debug/net6.0/ref/Operators.dll
