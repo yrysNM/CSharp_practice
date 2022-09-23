@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wRmKmWU663fyznw3pjopysFqtvieaTEK1zrBPRr1Sx4qZOmeks8UzPfUy3RHT88oJzBPT540USRNIxgGlm5EBA==",
+  "success": true,
+  "projectFilePath": "/home/yrys_nm/C#/book/C#_tasks/HWSDU /week1/week1.csproj",
+  "expectedPackageFiles": [
+    "/home/yrys_nm/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
