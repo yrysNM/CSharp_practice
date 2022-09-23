@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.AssemblyInfo.cs
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/bin/Debug/net6.0/WritingFunctions
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/bin/Debug/net6.0/WritingFunctions.deps.json
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/bin/Debug/net6.0/WritingFunctions.runtimeconfig.json
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/bin/Debug/net6.0/WritingFunctions.dll
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/bin/Debug/net6.0/WritingFunctions.pdb
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.dll
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/refint/WritingFunctions.dll
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.pdb
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/WritingFunctions.genruntimeconfig.cache
+/home/yrys_nm/C#/book/chapter4/WritingFunctions/obj/Debug/net6.0/ref/WritingFunctions.dll
