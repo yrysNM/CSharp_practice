@@ -45,6 +45,7 @@ namespace WritingFunctions
                 case "DK":
                 case "NO":
                     rate = 0.25M;
+                    break;
                 case "GB":
                 case "FR":
                     rate = 0.2M;
@@ -75,13 +76,13 @@ namespace WritingFunctions
         static void RunCalculateTax()
         {
             Write("Enter an amout: ");
-            string amoutInText = ReadLine();
+            string amoutInText = (ReadLine());
             Write("Enter a two-letter region code: ");
             string region = ReadLine();
 
-            if (decimal.TryParse(amountInText, out decimal amout))
+            if (decimal.TryParse(amoutInText, out decimal amout))
             {
-                decimal taxPay = CalculateTax(amout, region);
+                decimal taxToPay = CalculateTax(amout, region);
                 WriteLine($"You must pay {taxToPay} in sales tax.");
             }
             else
@@ -90,10 +91,95 @@ namespace WritingFunctions
             }
         }
 
+        /// <summary>
+        ///  Pass a 32 -bit integer and it will be converted into its original equalient
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns></returns>
+        /// 
+        static string CardinalToOrdinal(int number)
+        {
+            switch (number)
+            {
+                case 11:
+                case 12:
+                case 13:
+                    return $"{number}th";
+                default:
+                    string numberAsText = number.ToString();
+                    char lastDigit = numberAsText[numberAsText.Length - 1];
+                    string suffix = string.Empty;
+                    switch (lastDigit)
+                    {
+                        case '1':
+                            suffix = "st";
+                            break;
+                        case '2':
+                            suffix = "nd";
+                            break;
+                        case '3':
+                            suffix = "rd";
+                            break;
+                        default:
+                            suffix = "th";
+                            break;
+                    }
+                    return $"{number}{suffix}";
+            }
+        }
+
+        static void RunCardinalToOrdinal()
+        {
+            for (int number = 1; number <= 40; number++)
+            {
+                Write($"{CardinalToOrdinal(number)} ");
+
+            }
+            WriteLine();
+        }
+
+        static int Factorial(int number)
+        {
+            if (number < 1)
+            {
+                return 0;
+            }
+            else if (number == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return number * Factorial(number - 1);
+            }
+        }
+
+        static void RunFactorial()
+        {
+            bool isNumber;
+            do
+            {
+                Write("Enter a number: ");
+
+                isNumber = int.TryParse(ReadLine(), out int number);
+
+                if (isNumber)
+                {
+                    WriteLine($"{number}! = {Factorial(number)}");
+                }
+                else
+                {
+                    WriteLine("You did not enter a valid number!");
+                }
+            } while (isNumber);
+        }
+
         static void Main(string[] args)
         {
             // RunTimesTable();
-            RunCalculateTax();
+            // RunCalculateTax();
+            // RunCardinalToOrdinal();
+            RunFactorial();
         }
     }
 }

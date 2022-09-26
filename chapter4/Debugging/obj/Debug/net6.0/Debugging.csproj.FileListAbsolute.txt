@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/chapter4/Debugging/bin/Debug/net6.0/Debugging
+/home/yrys_nm/C#/book/chapter4/Debugging/bin/Debug/net6.0/Debugging.deps.json
+/home/yrys_nm/C#/book/chapter4/Debugging/bin/Debug/net6.0/Debugging.runtimeconfig.json
+/home/yrys_nm/C#/book/chapter4/Debugging/bin/Debug/net6.0/Debugging.dll
+/home/yrys_nm/C#/book/chapter4/Debugging/bin/Debug/net6.0/Debugging.pdb
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.AssemblyInfo.cs
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.dll
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/refint/Debugging.dll
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.pdb
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/Debugging.genruntimeconfig.cache
+/home/yrys_nm/C#/book/chapter4/Debugging/obj/Debug/net6.0/ref/Debugging.dll

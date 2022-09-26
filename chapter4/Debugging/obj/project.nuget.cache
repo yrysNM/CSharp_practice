@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "53i+3pPPKN5DrRaRh2FgusN45sQmhkJWjR2rTlh8O3Tbof0oBXBaGmU9O5uU1I4O/vIA+3DcD3witd8T+ilEiw==",
+  "success": true,
+  "projectFilePath": "/home/yrys_nm/C#/book/chapter4/Debugging/Debugging.csproj",
+  "expectedPackageFiles": [
+    "/home/yrys_nm/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
