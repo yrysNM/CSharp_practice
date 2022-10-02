@@ -10,6 +10,7 @@ namespace week1
             WriteLine("Enter chacter vowel: ");
             char character = Convert.ToChar(ReadLine());
 
+            bool check = Char.IsDigit(character);
             if (Char.ToLower(character) == character)
             {
                 if (character == 'a' || character == 'e' || character == 'i' ||
@@ -18,14 +19,18 @@ namespace week1
 
                     WriteLine("It's a lowercase vowel.");
                 }
-                else
+                else if (!check)
                 {
                     WriteLine("Its not a lowercase vowel.");
                 }
             }
-            else
+            else if (Char.ToLower(character) != character)
             {
                 WriteLine("Its not a lowercase character.");
+            }
+            if (check)
+            {
+                WriteLine("Its digit number");
             }
 
             //task 2 
