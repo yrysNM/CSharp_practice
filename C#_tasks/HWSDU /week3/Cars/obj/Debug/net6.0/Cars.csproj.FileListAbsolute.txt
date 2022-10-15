@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.AssemblyInfo.cs
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/bin/Debug/net6.0/Cars
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/bin/Debug/net6.0/Cars.deps.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/bin/Debug/net6.0/Cars.runtimeconfig.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/bin/Debug/net6.0/Cars.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/bin/Debug/net6.0/Cars.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/refint/Cars.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/Cars.genruntimeconfig.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Cars/obj/Debug/net6.0/ref/Cars.dll

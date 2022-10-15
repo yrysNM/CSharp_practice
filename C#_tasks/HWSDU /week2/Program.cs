@@ -13,23 +13,25 @@ namespace week2
         static void Main(string[] args)
         {
             // 1 task
-            // Fraction a = new Fraction();
-            // a.num = 6;
-            // a.den = 7;
-            // Fraction b = new Fraction(5, 9);
-            // Console.WriteLine(a * b);
-            // Console.WriteLine(a < b);
-            // Console.WriteLine(a > b);
-            // Console.WriteLine(a == b);
-            // Console.WriteLine(a != b);
+            Fraction a = new Fraction();
+            a.num = 7;
+            a.den = 14;
+            Console.WriteLine(a);
+            Fraction b = new Fraction(5, 9);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a < b);
+            Console.WriteLine(a > b);
+            Console.WriteLine(a == b);
+            Console.WriteLine(a != b);
 
+            //taks 2
             VectorThree v1 = new VectorThree(1, 0, 5);
             VectorThree v2 = new VectorThree(0, 2, 4);
-            float a = 5;
+            float c = 5;
             Console.WriteLine(v1 != v2);
             Console.WriteLine((v1 - v2) == (v2 - v1));
             Console.WriteLine(v1 - v2);
-            Console.WriteLine((v1 - v2) * a);
+            Console.WriteLine((v1 - v2) * c);
             Console.WriteLine(v1.distanceVectorThree(v1, v2));
             Console.ReadKey();
         }
