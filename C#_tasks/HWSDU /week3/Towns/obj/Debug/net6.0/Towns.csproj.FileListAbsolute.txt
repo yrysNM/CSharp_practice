@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/bin/Debug/net6.0/Towns
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/bin/Debug/net6.0/Towns.deps.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/bin/Debug/net6.0/Towns.runtimeconfig.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/bin/Debug/net6.0/Towns.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/bin/Debug/net6.0/Towns.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.AssemblyInfo.cs
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/refint/Towns.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/Towns.genruntimeconfig.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week3/Towns/obj/Debug/net6.0/ref/Towns.dll

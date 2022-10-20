@@ -17,10 +17,5 @@ namespace week3 {
         public virtual void ShowInformation() {
             Console.WriteLine($"Cars name is {this.name} and release date {this.releaseDate}");
         } 
-
-        public string Name {
-            get {return this.name; }
-            set {this.name = value; }
-        } 
     }
 }
