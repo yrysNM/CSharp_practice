@@ -10,59 +10,55 @@ namespace Towns
     {
         static void Main(string[] args)
         {
-            Animal a = new Animal();
-            Dog d = new Dog();
-            Animal anim = new Dog();
-            Cat c = new Cat();
-            Ocelot o = new Ocelot();
-            OcelotKitten ok = new OcelotKitten();
-            Animal [] animals = { a, d, c, o, ok};
-            foreach (Animal animal in animals)
-            {
-                animal.Voice();
-            }
-            Ocelot[] ocelots = { o, ok};
-            foreach (Ocelot ocel in ocelots)
-                ocel.Voice();
+            Town t = new Town(); 
+            NewYork n = new NewYork();
+            Astana a= new Astana(); 
+            Almaty al= new Almaty(); 
+            Almaty2 al2 = new Almaty2(); 
+            
+            n.TownInformation();
+            a.TownInformation(); 
+            al.TownInformation(); 
+            al2.TownInformation();
+
             Console.ReadKey();
         }
 
-        class Animal {
 
-            private int i;
-            public int j;
-            protected int k;
-            public virtual void Voice()
-            {
-                Console.WriteLine("Speaking in animalish...");
-            }
-        }
-        class Dog : Animal
-        {
-            public override void Voice()
-            {
-                Console.WriteLine("Bark!");
-            }
+        class Town {
+            public string name; 
+            public long population; 
             
-        }
-        class Cat : Animal {
-            public sealed override void Voice()
-            {
-                Console.WriteLine("Meow!");
+            public virtual void TownInformation() {
+                Console.WriteLine("Town name: " + name + " population " + population);
             }
         }
-        class Ocelot : Cat
-        {
-            public new virtual void Voice()
-            {
-                Console.WriteLine("Meooooow!");
+
+        class NewYork : Town {
+            public override void TownInformation() {
+                base.name = "New York";
+                base.population = 30000000000;
+                Console.WriteLine("Town name: " + name + " population " + population);
             }
         }
-        class OcelotKitten : Ocelot
-        {
-            public override void Voice()
-            {
-                Console.WriteLine("meooooow!");
+
+        class Astana : Town {
+            public sealed override void TownInformation() {
+                Console.WriteLine("Town name: Astana");
+            }
+        }
+
+        class Almaty : Town {
+            public new virtual void TownInformation() {
+                Console.WriteLine("Almaty city \n population: 200000000");
+            }
+        }
+
+        class Almaty2 : Almaty {
+            public override void TownInformation() {
+                base.name = "Almaty2";
+                base.population = 1000000; 
+                Console.WriteLine("Town name: " + name + " population " + population);
             }
         }
     }

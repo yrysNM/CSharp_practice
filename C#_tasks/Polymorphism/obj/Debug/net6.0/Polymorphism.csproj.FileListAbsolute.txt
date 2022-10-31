@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.AssemblyInfo.cs
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/bin/Debug/net6.0/Polymorphism
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/bin/Debug/net6.0/Polymorphism.deps.json
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/bin/Debug/net6.0/Polymorphism.runtimeconfig.json
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/bin/Debug/net6.0/Polymorphism.dll
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/bin/Debug/net6.0/Polymorphism.pdb
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.dll
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/refint/Polymorphism.dll
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.pdb
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/Polymorphism.genruntimeconfig.cache
+/home/yrys_nm/C#/book/C#_tasks/Polymorphism/obj/Debug/net6.0/ref/Polymorphism.dll
