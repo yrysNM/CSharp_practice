@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/bin/Debug/net6.0/Lab4
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/bin/Debug/net6.0/Lab4.deps.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/bin/Debug/net6.0/Lab4.runtimeconfig.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/bin/Debug/net6.0/Lab4.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/bin/Debug/net6.0/Lab4.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.AssemblyInfo.cs
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/refint/Lab4.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/Lab4.genruntimeconfig.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /Lab4/obj/Debug/net6.0/ref/Lab4.dll
