@@ -1,0 +1,15 @@
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.csproj.AssemblyReference.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.GeneratedMSBuildEditorConfig.editorconfig
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.AssemblyInfoInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.AssemblyInfo.cs
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.csproj.CoreCompileInputs.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/bin/Debug/net6.0/week12
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/bin/Debug/net6.0/week12.deps.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/bin/Debug/net6.0/week12.runtimeconfig.json
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/bin/Debug/net6.0/week12.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/bin/Debug/net6.0/week12.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/refint/week12.dll
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.pdb
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/week12.genruntimeconfig.cache
+/home/yrys_nm/C#/book/C#_tasks/HWSDU /week12/obj/Debug/net6.0/ref/week12.dll
