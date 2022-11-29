@@ -1,12 +1,36 @@
 ﻿using static System.Console;
 
-namespace Lab4 {
-    class Program {
-        public static void Main(String[] args) {
-            int [] arr = {0, 1, 2,3, 5};
-            List<int> list = new List<int>(); 
+namespace Lab4
+{
+    class DataNotFoundException : Exception
+    {
+        private string mess;
+        public string DataMessage { get { return mess; } set { mess = value; } }
 
-            for(int x= 5; x < 20; x++) {
+
+
+        public string toString()
+        {
+            return DataMessage;
+        }
+
+        public DataNotFoundException(string message) : base(message)
+        {
+
+        }
+
+
+    }
+
+    class Program
+    {
+        public static void Main(String[] args)
+        {
+            int[] arr = { 0, 1, 2, 3, 5 };
+            List<int> list = new List<int>();
+
+            for (int x = 5; x < 20; x++)
+            {
                 list.Add(x);
             }
 
@@ -21,6 +45,8 @@ namespace Lab4 {
             test.AddOrUpdate(2, 69);
             test.AddOrUpdate(14, 40);
 
+            test.ShowOnlyFiveData<int>();
+
 
             WriteLine(test.GetData(12));
 
@@ -28,59 +54,87 @@ namespace Lab4 {
             test2.isAcceptTest(11);
         }
 
-        public static void reverseArray<T>(IList<T> coll) {
-            
-            foreach(T item in coll.Reverse()) {
+        public static void reverseArray<T>(IList<T> coll)
+        {
+
+            foreach (T item in coll.Reverse())
+            {
                 Write(item.ToString() + " ");
             }
 
             WriteLine();
         }
 
-        
+
     }
 
-        // b)Write a generic class with at least 2 generic types.
-         // c)Write constraints for both 2 generic types.
-    class TestGeneric<T, S> where T : S where S : new() {
-        public T[] _data = new T[10]; 
+    // b)Write a generic class with at least 2 generic types.
+    // c)Write constraints for both 2 generic types.
+    class TestGeneric<T, S> where T : S where S : new()
+    {
+        public T[] _data = new T[10];
 
-        public void AddOrUpdate(int index, T item) {
-             // d) Create 2 custom exceptions and use them in try/catch blocks.
-            try {
-                if(index >= 0 && index< 10) {
+        public void AddOrUpdate(int index, T item)
+        {
+            // d) Create 2 custom exceptions and use them in try/catch blocks.
+            try
+            {
+                if (index >= 0 && index < 10)
+                {
                     _data[index] = item;
                 }
-            }catch(InvalidCastException e) {
-                // WriteLine("Error {0}", e.Source);
-                throw new ("Something wrong");
+                else
+                {
+                    throw new DataNotFoundException("index is not corrent");
+                }
+            }
+            catch (DataNotFoundException e)
+            {
+                WriteLine(e.Message);
             }
         }
 
-        public T GetData(int index) {
+        public T GetData(int index)
+        {
             //   d) Create 2 custom exceptions and use them in try/catch blocks.
-            try {
-                if(index >= 0 && index < 10) {
+            try
+            {
+                if (index >= 0 && index < 10)
+                {
                     return _data[index];
                 }
-                
-                return default(T);
-            }catch(InvalidCastException e) {
-                // WriteLine("Error {0}", e.Source);
-                throw new ("Something wrong");
-            }
 
+                return default(T);
+            }
+            catch (InvalidCastException e)
+            {
+                // WriteLine("Error {0}", e.Source);
+                throw new("Something wrong");
+            }
+        }
+
+        public void ShowOnlyFiveData<U>()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Write(_data[i]);
+            }
+            WriteLine();
         }
     }
 
     //e) Also write a second generic class that will derive from the first one (a).
-    class TestGeneric2<T> : TestGeneric<int, int> {
-        public T pass; 
+    class TestGeneric2<T> : TestGeneric<int, int>
+    {
 
-        public void isAcceptTest (int item) {
-            if(item > 10) {
+        public void isAcceptTest(int item)
+        {
+            if (item > 10)
+            {
                 WriteLine("Accept");
-            }else {
+            }
+            else
+            {
                 WriteLine("Not accept");
             }
         }

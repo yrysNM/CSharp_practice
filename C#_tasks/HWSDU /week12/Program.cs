@@ -1,49 +1,70 @@
-﻿using static System.Console;
 
-namespace week12
-{
-    public class GenericList<T> { 
-        public void Add(T input) {
-            WriteLine(input);
-        }
+namespace week12 {
 
-    }
+    class ExcpetionForError : Exception {
 
-    public class TestClass<T> {
-        public T name; 
+        public ShowErrorException(string err) : base(err) {
 
-        public void SetName(T n) {
-            name = n;
-        }
-
-        public T getName() {
-            return name;
         }
     }
 
-    public class TestClass2 {
-        public void WriteGeneric<T>(T value) {
-            WriteLine(value.ToString());
+    class GenericTwoObj<T, U> where T: S where S : new () {
+        public T[] obj = new T[];
+        GenericTwoObj() {
+            obj[0] = "Continental";
+        }
+
+        public void AddValue(int index, T value) {
+            try {
+                if(index <= 0 && index > 10) {
+                    throw new ExcpetionForError('not correct input');
+                }else {
+                    obj[index] = value;
+                }
+            }catch(ExcpetionForError e) {
+                Cosnole.WriteLine(e.Message);
+            }
+        }
+
+        public void GetObjValues<T>(int key) {
+            if(key >= 0 && key < 10) {
+                return obj[key];
+            }else {
+                return default(T);
+            }
+        }        
+    }
+
+    class CheckObjValue<T> : GenericTwoObj<int, string> {
+
+        public void isContinental(string c) {
+            if(c == obj[0]) {
+                Console.WriteLine("Accept to hunt");
+            }else{
+                Console.WriteLine("Not accept to hunt");
+            }
         }
     }
 
     class Program {
-        public static void Main  (String[] args) {
-            // GenericList<float> list1 = new GenericList<float>();
-            // list1.Add(1);
 
-            // GenericList<string> list2 = new GenericList<string>(); 
-            // list2.Add("");
+        public static void reverseListArray<T>(IList<T> arr) {
+            IList<T> revArr = arr.Reverse(); 
+
+            foreach(T value in revArr) {
+                Console.Write(value.ToString() + " ");
+            }
+
+            Console.WriteLine();
+        }
+
+
+
+        public static void Main(string[] args) {
+            int[] array = { 0, 1, 2, 3, 5 };
             
+            reverseListArray<int>(array); 
 
-            // TestClass<int> intTest = new TestClass<int>(); 
-            // intTest.SetName(12);
-            // TestClass<string> stringTest = new TestClass<string>(); 
-            // stringTest.SetName("three");
-            // WriteLine(intTest.getName());
-            // WriteLine(stringTest.getName());
-            TestClass2 test = new TestClass2();
-            test.WriteGeneric("Hello");
         }
     }
 }
