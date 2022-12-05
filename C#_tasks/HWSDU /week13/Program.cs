@@ -1,29 +1,44 @@
-﻿namespace week13 {
-    class Programm {
-        public static void Main(string[] args) {
-            int[] ints = new int[]{1, 2, 3, 4, 5, 6, 7, 8}; 
-            var moreThanThree = from n in ints where n > 3 select n;
-            var filterOddNumbers = from n in ints where n % 2 == 1 select n;
+﻿using static week13.Nurzhan;
+
+namespace week13
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            int[] ints = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+            string[] numbersAsString = new string[] { "3", "1", "2", "4" };
+
+
+            IEnumerable<int> moreThanThreeNumbers = ints.Where(n => n > 3).Select(n => n);
+            IEnumerable<int> filterOddNumbers = ints.Where(n => n % 2 == 1).Select(num => num);
+
             Console.WriteLine("-----------------------1---------------------------");
-            Console.WriteLine(string.Join("->", moreThanThree));
+            Console.WriteLine(string.Join("->", moreThanThreeNumbers));
             Console.WriteLine(string.Join("->", filterOddNumbers));
 
-            string[] numbersAsString = new string[] { "3", "1", "2", "4" }; 
+
+
             var numbersAsInt = numbersAsString.Select(n => Int16.Parse(n));
             Console.WriteLine("-----------------------2---------------------------");
-            foreach (int i in numbersAsInt) {
-                Console.Write(i + " <--> " + i.GetType() + " ");
+            foreach (int i in numbersAsInt)
+            {
+                Console.Write(i + " <--> " + i.GetType() + "\n");
             }
 
+
+
             Console.WriteLine("-----------------------3---------------------------");
+            string[] bands = { "ACDC", "Queen", "Aerosmith", "Iron Maiden", "Megadeth", "Metallica", "Cream", "Oasis", "Abba", "Blur", "Chic", "Eurythmics", "Genesis", "INXS", "Midnight Oil", "Kent", "Madness", "Manic Street Preachers", "Noir Desir", "The Offspring", "Pink Floyd", "Rammstein", "Red Hot Chili Peppers", "Tears for Fears", "Deep Purple", "KISS" };
+            IEnumerable<int> lengthStringsInArray = bands.Select(s => s.Length);
 
-            string[] bands = { "ACDC", "Queen", "Aerosmith", "Iron Maiden", "Megadeth", "Metallica", "Cream", "Oasis", "Abba", "Blur" , "Chic", "Eurythmics", "Genesis", "INXS", "Midnight Oil", "Kent", "Madness", "Manic Street Preachers", "Noir Desir", "The Offspring", "Pink Floyd", "Rammstein", "Red Hot Chili Peppers", "Tears for Fears", "Deep Purple", "KISS"};
-
-            var lengthStringsInArray = bands.Select(s => s.Length); 
-            foreach (int i in lengthStringsInArray) {
+            foreach (int i in lengthStringsInArray)
+            {
                 Console.Write(i + " ");
             }
             Console.WriteLine();
+
+
 
             Console.WriteLine("-----------------------4---------------------------");
             IEnumerable<Singer> singers = new List<Singer>()
@@ -36,35 +51,36 @@
             };
 
             int total = 0;
-            foreach(Singer data  in singers) {
+            foreach (Singer data in singers)
+            {
                 total += data.BirthYear;
             }
 
             Console.WriteLine("a. " + total / singers.Count());
 
-            var orderByDescFirstName = singers.OrderByDescending(data => data.FirstName).Select(data => data.FirstName);
-            var orderByFirstName = singers.OrderBy(data => data.FirstName).Select(data => data.FirstName);
+            IEnumerable<string> orderByFirstName = singers.OrderBy(data => data.FirstName).Select(data => data.FirstName);
 
-            
-            foreach(string name in orderByFirstName) {
-                Console.Write(name + " ->b. ");
-            }
-            Console.WriteLine();
 
-            foreach(string name in orderByDescFirstName) {
+            foreach (string name in orderByFirstName)
+            {
                 Console.Write(name + " ->b. ");
             }
             Console.WriteLine();
 
             string vowels = "aeiouy";
 
-            var filterData = from data in singers where data.Id % 2 == 1 && data.FirstName.Length > 4  && data.LastName.Count(s => vowels.Contains(s)) >= 2
-            orderby data.BirthYear ascending select data; 
+            IEnumerable<Singer> filterData = from data in singers
+                                             where data.Id % 2 == 1 && data.FirstName.Length > 4 && data.LastName.Count(s => vowels.Contains(s)) >= 2
+                                             orderby data.BirthYear ascending
+                                             select data;
             Console.Write("c. ");
-            foreach(Singer name in filterData) {
+            foreach (Singer name in filterData)
+            {
                 Console.Write(name.FirstName + " ");
             }
             Console.WriteLine();
+
+            Nurzhan.main();
         }
 
 
