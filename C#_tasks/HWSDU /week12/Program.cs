@@ -1,57 +1,81 @@
 
-namespace week12 {
+namespace week12
+{
 
-    class ExcpetionForError : Exception {
+    class ExcpetionForError : Exception
+    {
 
-        public ShowErrorException(string err) : base(err) {
+        public ShowErrorException(string err) : base(err)
+        {
 
         }
     }
 
-    class GenericTwoObj<T, U> where T: S where S : new () {
-        public T[] obj = new T[];
-        GenericTwoObj() {
+    class GenericTwoObj<T, S> where T : S where S : new()
+    {
+        public T[] obj = new T[10];
+        GenericTwoObj()
+        {
             obj[0] = "Continental";
         }
 
-        public void AddValue(int index, T value) {
-            try {
-                if(index <= 0 && index > 10) {
+        public void AddValue(int index, T value)
+        {
+            try
+            {
+                if (index <= 0 && index > 10)
+                {
                     throw new ExcpetionForError('not correct input');
-                }else {
+                }
+                else
+                {
                     obj[index] = value;
                 }
-            }catch(ExcpetionForError e) {
-                Cosnole.WriteLine(e.Message);
+            }
+            catch (ExcpetionForError e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
 
-        public void GetObjValues<T>(int key) {
-            if(key >= 0 && key < 10) {
+        public T? GetObjValues<T>(int key)
+        {
+            if (key >= 0 && key < 10)
+            {
                 return obj[key];
-            }else {
+            }
+            else
+            {
                 return default(T);
             }
-        }        
+        }
     }
 
-    class CheckObjValue<T> : GenericTwoObj<int, string> {
+    class CheckObjValue<T> : GenericTwoObj<int, string>
+    {
 
-        public void isContinental(string c) {
-            if(c == obj[0]) {
+        public void isContinental(string c)
+        {
+            if (c == obj[0])
+            {
                 Console.WriteLine("Accept to hunt");
-            }else{
+            }
+            else
+            {
                 Console.WriteLine("Not accept to hunt");
             }
         }
     }
 
-    class Program {
+    class Program
+    {
 
-        public static void reverseListArray<T>(IList<T> arr) {
-            IList<T> revArr = arr.Reverse(); 
+        public static void reverseListArray<T>(IList<T> arr)
+        {
+            IList<T> revArr = (IList<T>)arr.Reverse();
 
-            foreach(T value in revArr) {
+            foreach (T value in revArr)
+            {
                 Console.Write(value.ToString() + " ");
             }
 
@@ -60,10 +84,11 @@ namespace week12 {
 
 
 
-        public static void Main(string[] args) {
+        public static void Main(string[] args)
+        {
             int[] array = { 0, 1, 2, 3, 5 };
-            
-            reverseListArray<int>(array); 
+
+            reverseListArray<int>(array);
 
         }
     }
