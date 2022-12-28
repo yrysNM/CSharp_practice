@@ -4,15 +4,21 @@ namespace chapter6
     {
         public static void main()
         {
-            var hello = () =>
+            int Square(int num) => num * num;
+
+            Console.WriteLine(Square(5));
+
+            void Message(string msg) => Console.WriteLine(msg);
+
+            Message("Hello world!");
+
+            Action<string> greet = name =>
             {
-                Console.WriteLine("Hello Lambda");
+                string greeting = $"Hello {name}";
+                Console.WriteLine(greeting);
             };
 
-            hello();
-            hello();
-            hello();
-
+            greet("Yrys");
         }
     }
 }
